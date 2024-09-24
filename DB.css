@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#navbar {
+    background-color: black;
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#searches {
+    padding-bottom: 0px;
+    padding-left: 1600px;
+    margin: -25px;
+}
+
+#search {
+    font-size: 20px;
+    border: 2px solid rgb(63, 192, 231);
+}
+
+#websiteName {
+    background-color: black;
+    height: 46px;
+    font-size: 38px;
+    border: 2px solid rgb(63, 192, 231);
+    padding: 0px;
+    text-align: center;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+a:link,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(192, 165, 12);
+}
+
+b {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    background: url(Images/hexagonal\ steel\ db.jpg);
+    height: 1300px;
+    background-size: cover;
+}
+
+#description {
+    position: relative;
+    top: 480px;
+    left: 720px;
+    width: 500px;
+    text-align: center;
+    color: rgb(63, 192, 231);
+    font-size: 30px;
+}
+
+#servicesImage {
+    height: 200px;
+    width: auto;
+    border-radius: 300px;
+    position: absolute;
+    top: 190px;
+    left: 360px;
+}
+
+#servicesLink {
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    font-size: 30px;
+}
+
+#blogImage {
+    height: 180px;
+    width: auto;
+    border-radius: 300px;
+    position: absolute;
+    top: 200px;
+    left: 1285px;
+}
+
+#blogLink {
+    position: absolute;
+    top: 390px;
+    left: 1410px;
+    font-size: 30px;
+}
+
+#productImage {
+    height: 200px;
+    width: auto;
+    border-radius: 300px;
+    position: absolute;
+    top: 1050px;
+    left: 350px;
+}
+
+#productLink {
+    position: absolute;
+    top: 1250px;
+    left: 450px;
+    font-size: 30px;
+}
+
+#contactImage {
+    height: 200px;
+    width: auto;
+    border-radius: 300px;
+    position: absolute;
+    top: 1050px;
+    left: 1320px;
+}
+
+#contactLink {
+    position: absolute;
+    top: 1250px;
+    left: 1390px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+#routine {
+    background-image: url(Images/greek\ 1.0.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    background-attachment: fixed;
+}
+
+#description2 {
+    width: 1000px;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    left: -250px;
+    text-align: center;
+}
+
+#heading2 {
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 710px;
+    text-decoration: underline;
+}
+
+#vid1{
+    position: relative;
+    top: 400px;
+    left: 60px;
+    border-radius: 10px;
+}
+
+#vid2{
+    position: relative;
+    top: 400px;
+    left: 110px;
+    border-radius: 10px;
+}
+
+#vid3{
+    position: relative;
+    top: 400px;
+    left: 160px;
+    border-radius: 10px;
+}
+
+
+
+#contactPage {
+    background-image: url(Images/hamster.jpg);
+    background-size: cover;
+}
+
+#contact {
+    position: absolute;
+    top: 220px;
+    left: 780px;
+    background-color: rgba(231,229,216,255);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#enquiry {
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: 500;
+    background-color: rgba(231,229,216,255);
+    border-radius: 10px ;
+}
+
+#forms {
+    text-align: center;
+    background-color: rgba(231, 229, 216, 255);
+    border-radius: 10px;
+}
+button {
+    border-radius: 10px;
+}
+
+#description3 {
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#description4, #name, #email, #phoneNumber{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+#product {
+    background-image: url(Images/greek\ 1.0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+
+    color: white;
+}
+
+#p4 {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+
+#p1title {
+    padding-left: 300px;
+    padding-top: 412px;
+
+}
+
+
+#p2title {
+    position: absolute;
+    top: 700px;
+    left: 600px;
+    text-align: center;
+}
+
+#p3title {
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    text-align: center;
+}
+
+#p4title {
+    position: absolute;
+    top: 700px;
+    left: 1200px;
+    text-align: center;
+}
+
+#p5title {
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+    text-align: center;
+}
+
+#p6title {
+    position: absolute;
+    top: 350px;
+    left: 905px;
+    text-align: center;
+}
+
+#p7title {
+    position: absolute;
+    top: 350px;
+    left: 610px;
+    text-align: center;
+}
+
+#p8title {
+    position: absolute;
+    top: 350px;
+    left: 310px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+
+#footer {
+    background-color: rgb(63, 192, 231);
+    font-size: 20px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: -500px;
+    width: 100%;
+    height: 25px;  
+    text-align: center;
+}
+
+#footer2 {
+    background-color: rgb(63, 192, 231);
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+.about img {
+    height: auto;
+    width: 1900px;
+}
+
+
+.about h2 {
+    font-size: 32px;
+    position: absolute;
+    top: 100px;
+    left: 340px;
+    color: rgb(192, 165, 12);
+    text-decoration: underline solid;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.about p {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 500px;
+    text-align: center;
+    color: rgb(146, 124, 2);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#WHY {
+    position: absolute;
+    top: 950px;
+    left: 1320px;
+    width: 500px;
+    text-align: center;
+    color: rgb(146, 124, 2);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#why {
+    position: absolute;
+    top: 1000px;
+    left: 1320px;
+    width: 500px;
+    text-align: center;
+    color: rgb(146, 124, 2);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.about footer {
+    background-color: rgb(63, 192, 231);
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: -350px;
+    width: 100%;
+    height: 25px;  
+    text-align: center;
+}
+
+
+#footer4 {
+    background-color: rgb(63, 192, 231);
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
